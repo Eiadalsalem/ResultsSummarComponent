@@ -31,7 +31,7 @@ body {
   background: linear-gradient(hsl(252, 100%, 67%) 50%, hsl(241, 81%, 54%) 100%);
 }
 .leftSide h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   text-shadow: 2px 1px black;
 }
