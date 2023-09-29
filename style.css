@@ -16,7 +16,6 @@ body {
   display: flex;
   width: 700px;
   max-width: 700px;
-  height: 500px;
   border-radius: 20px;
   box-shadow: -2px -2px 10px -2px black, -1px -1px 10px -2px black;
 }
@@ -120,8 +119,23 @@ button {
   transition: all 1s ease;
 }
 
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
   background-color: hsl(224, 30%, 38%);
+}
 
+@media (max-width: 768px) {
+  body {
+    margin: 15px 20px;
+
+  }
+  .container {
+    flex-direction: column;
+  }
+  .leftSide {
+    width: 100%;
+  }
+  .rightSide {
+    width: 100%;
+  }
 }
