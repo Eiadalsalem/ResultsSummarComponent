@@ -125,12 +125,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  body {
-    margin: 15px 20px;
 
-  }
   .container {
     flex-direction: column;
+    margin: 15px 20px;
   }
   .leftSide {
     width: 100%;
